@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+    </head>
+
+    <body>
+        <h1>Bienvenido a mi pagina web!</h1>
+        <hr>
+        <p>
+            <li>Inicio</li>
+            <li>Contenidos</li>
+            <li>Contactos</li>
+        </p>
+
+        <hr>
+
+        <h3>Como hago para comprar un Poster de estas Fotos?</h3>
+        <p>
+            Quieres conseguir un poster de estas Fotos? Es muy facil! Completa el formulario aqui abajo y se procesara tu pedido :D
+        </p>
+        <hr/>
+
+        <form>
+            <p>
+                Elija el planeta que quiere en el poster
+                <select name="planeta">
+                    
+                    <option value="mercurio">Mercurio</option>
+                    <option value="venus">Venus</option>
+                    <option value="la tierra">La Tierra</option>
+                    <option value="marte">Marte</option>
+                    <option value="jupiter">Jupiter</option>
+                    <option value="saturno">Saturno</option>
+                    <option value="urano">Urano</option>
+                    <option value="neptuno">Neptuno</option>
+
+                </select>
+
+                <br/><br/>
+
+                <label for="descripcion">Descripcion</label><br/>
+                <textarea name="descripcion" placeholder="Diganos cual es el tamanio que desea el poster porfavor"></textarea>
+
+                <br/><br/>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escriba su nombre aqui"/>
+
+                <br/>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Escriba su apellido aqui"/>
+
+                <br/><br/>
+
+                Elija que metodo de pago desea realizar:<br/>
+
+                <input type="radio" name="metodo" value="visa">Visa<br/>
+                <input type="radio" name="metodo" value="mastercard">MasterCard<br/>
+                <input type="radio" name="metodo" value="efectivo">Efectivo
+
+                <br/><br/>
+
+                <input type="submit" value="Enviar formulario"/>
+            </p>
+        </form>
+        <hr/>
+    </body>
+</html>
