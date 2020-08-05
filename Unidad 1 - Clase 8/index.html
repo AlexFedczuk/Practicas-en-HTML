@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <h1>Bienvenidos a mi pagina web!</h1>
+        <h3>Esta vez veremos tablas</h3>
+    </head>
+
+    <body>
+        <p>
+            Empezare con las tablas mas sencillas("table" es la etiqueta para <strong>tablas</strong>, 
+            "tr" es la etiqueta para hacer las <strong>filas</strong> y "td" es la etiqueta para 
+            <strong>insertar un nombre, por ejemplo, dentro de los cuadros</strong>).
+            
+            <table>
+                <tr>
+                    <td>Nombres</td>
+                    <td>Apellidos</td>
+                    <td>Regiones</td>
+                    <td>Edad</td>
+                </tr>
+
+                <tr>
+                    <td>Alex</td>
+                    <td>Fedczuk</td>
+                    <td>Argentina</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>Pepe</td>
+                    <td>Carlos</td>
+                    <td>Chile</td>
+                    <td>48</td>
+                </tr>
+            </table>
+            <p>
+               Como se puede ver no tiene mucha pinta de tabla, pero lo es.
+            </p>
+
+            <hr/>
+
+            Se le puede poner las letras en "negritas", con la etiqueta "th":
+            <table>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Regiones</th>
+                    <th>Edad</th>
+                </tr>
+
+                <tr>
+                    <td>Alex</td>
+                    <td>Fedczuk</td>
+                    <td>Argentina</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>Pepe</td>
+                    <td>Carlos</td>
+                    <td>Chile</td>
+                    <td>48</td>
+                </tr>
+            </table>
+
+            <hr/>
+            
+            Con la siguiente etiqueta se le puede agregar un borde, un remarcado a la tabla 
+            "table border='1'". Segun cual sea el numero, el marco de la tabla sera mas "grueso".
+            <table border="1">
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Regiones</th>
+                    <th>Edad</th>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>Fedczuk</td>
+                    <td>Argentina</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>Pepe</td>
+                    <td>Carlos</td>
+                    <td>Chile</td>
+                    <td>48</td>
+                </tr>
+            </table><br/>
+            
+            <table border="5">
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Regiones</th>
+                    <th>Edad</th>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>Fedczuk</td>
+                    <td>Argentina</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>Pepe</td>
+                    <td>Carlos</td>
+                    <td>Chile</td>
+                    <td>48</td>
+                </tr>
+            </table>
+            <hr/>
+
+            Y por ultimo la etiqueta "td colspan="2"/td", te permite extender el 
+            espacio ocupado por un cuadro de una fila.
+            <table border="5">
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Regiones</th>
+                    <th>Edad</th>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>Fedczuk</td>
+                    <td>Argentina</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>Pepe</td>
+                    <td>Carlos</td>
+                    <td colspan="2">Chile</td>
+                </tr>
+            </table>
+        </p>
+    </body>
+</html>
