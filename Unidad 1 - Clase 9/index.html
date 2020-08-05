@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <h1>Bienvenidos a mi pagina web!</h1>
+        <h3>Esta vez veremos "Formularios"</h3>
+    </head>
+    
+    <body>
+        <hr/>
+        
+        Empezaremos con los "campos", los cuales se hacen con la etiqueta del tipo "label". Despues dandole un nombre a ese campo.
+        Luego, se le da que tipo de data puede entrar en ese campo, por ejemplo: texto. Tambien se le puede poner una "Marca de Agua" con el atributo "placeholder"
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Escriba aqui"/>
+        </p>
+
+        <hr/>
+
+        Tambien se pueden hacer campos en los cuales se puede ingresar mucha informacion, con la etiqueta "textarea".
+        <p>
+            <label for="descripcion">descripcion</label>
+            <textarea name="descripcion" placeholder="Denos una descripcion de usted"></textarea>
+        </p>
+
+        <hr/>
+
+        Se puede hacer una serie de opciones de la siguiente manera con diversas opciones "selectivas":
+        <p>
+            <form>
+                <input type="radio" name="genero" value="hombre">Hombre<br/>
+                <input type="radio" name="genero" value="mujer">Mujer<br/>
+                <input type="radio" name="genero" value="otro">Otro
+            </form>
+        </p>
+
+        <hr/>
+
+        Tambien se puede hacer una serie de opciones de esta forma:
+        <p>
+            <select name="genero2">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+        </p>
+
+        <hr/>
+
+            <form>
+                Y por ultimo, luego de meter todos los elementos deseados dentro de el formulario, hay que agregar la etiqueta para que se mande toda la informacion para "algun lado":
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Escriba su nombre aqui"/>
+                </p>
+
+                <p>
+                    <label for="descripcion">descripcion</label>
+                    <textarea name="descripcion" placeholder="Denos una descripcion de usted"></textarea>
+                </p>
+
+                <p>
+                    <input type="radio" name="genero" value="hombre">Hombre<br/>
+                    <input type="radio" name="genero" value="mujer">Mujer<br/>
+                    <input type="radio" name="genero" value="otro">Otro
+                </p>
+
+                <select name="genero2">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <br/><br/>
+
+                Este seria el "Boton" para mandar info, que se hace con la etiqueta "input type='submit'"<br/>
+                <input type="submit" value="enviar formulario"/>
+                
+            </form>
+    </body>
+</html>
